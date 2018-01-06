@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ABBDBA720006AAD00DCD071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABBDBA620006AAD00DCD071 /* AppDelegate.swift */; };
+		6ABBDBA920006AAD00DCD071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABBDBA820006AAD00DCD071 /* ViewController.swift */; };
+		6ABBDBAC20006AAD00DCD071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABBDBAA20006AAD00DCD071 /* Main.storyboard */; };
+		6ABBDBAE20006AAD00DCD071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABBDBAD20006AAD00DCD071 /* Assets.xcassets */; };
+		6ABBDBB120006AAD00DCD071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABBDBAF20006AAD00DCD071 /* LaunchScreen.storyboard */; };
+		6ABBDBBC20006AAD00DCD071 /* RecurringAlarmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABBDBBB20006AAD00DCD071 /* RecurringAlarmsTests.swift */; };
+		6ABBDBC720006AAD00DCD071 /* RecurringAlarmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABBDBC620006AAD00DCD071 /* RecurringAlarmsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABBDBB820006AAD00DCD071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABBDB9B20006AAD00DCD071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABBDBA220006AAD00DCD071;
+			remoteInfo = RecurringAlarms;
+		};
+		6ABBDBC320006AAD00DCD071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABBDB9B20006AAD00DCD071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABBDBA220006AAD00DCD071;
+			remoteInfo = RecurringAlarms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ABBDBA320006AAD00DCD071 /* RecurringAlarms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecurringAlarms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABBDBA620006AAD00DCD071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ABBDBA820006AAD00DCD071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ABBDBAB20006AAD00DCD071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ABBDBAD20006AAD00DCD071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABBDBB020006AAD00DCD071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ABBDBB220006AAD00DCD071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABBDBB720006AAD00DCD071 /* RecurringAlarmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecurringAlarmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABBDBBB20006AAD00DCD071 /* RecurringAlarmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringAlarmsTests.swift; sourceTree = "<group>"; };
+		6ABBDBBD20006AAD00DCD071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABBDBC220006AAD00DCD071 /* RecurringAlarmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecurringAlarmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABBDBC620006AAD00DCD071 /* RecurringAlarmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringAlarmsUITests.swift; sourceTree = "<group>"; };
+		6ABBDBC820006AAD00DCD071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABBDBA020006AAD00DCD071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABBDBB420006AAD00DCD071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABBDBBF20006AAD00DCD071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABBDB9A20006AAD00DCD071 = {
+			isa = PBXGroup;
+			children = (
+				6ABBDBA520006AAD00DCD071 /* RecurringAlarms */,
+				6ABBDBBA20006AAD00DCD071 /* RecurringAlarmsTests */,
+				6ABBDBC520006AAD00DCD071 /* RecurringAlarmsUITests */,
+				6ABBDBA420006AAD00DCD071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABBDBA420006AAD00DCD071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABBDBA320006AAD00DCD071 /* RecurringAlarms.app */,
+				6ABBDBB720006AAD00DCD071 /* RecurringAlarmsTests.xctest */,
+				6ABBDBC220006AAD00DCD071 /* RecurringAlarmsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABBDBA520006AAD00DCD071 /* RecurringAlarms */ = {
+			isa = PBXGroup;
+			children = (
+				6ABBDBA620006AAD00DCD071 /* AppDelegate.swift */,
+				6ABBDBA820006AAD00DCD071 /* ViewController.swift */,
+				6ABBDBAA20006AAD00DCD071 /* Main.storyboard */,
+				6ABBDBAD20006AAD00DCD071 /* Assets.xcassets */,
+				6ABBDBAF20006AAD00DCD071 /* LaunchScreen.storyboard */,
+				6ABBDBB220006AAD00DCD071 /* Info.plist */,
+			);
+			path = RecurringAlarms;
+			sourceTree = "<group>";
+		};
+		6ABBDBBA20006AAD00DCD071 /* RecurringAlarmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABBDBBB20006AAD00DCD071 /* RecurringAlarmsTests.swift */,
+				6ABBDBBD20006AAD00DCD071 /* Info.plist */,
+			);
+			path = RecurringAlarmsTests;
+			sourceTree = "<group>";
+		};
+		6ABBDBC520006AAD00DCD071 /* RecurringAlarmsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABBDBC620006AAD00DCD071 /* RecurringAlarmsUITests.swift */,
+				6ABBDBC820006AAD00DCD071 /* Info.plist */,
+			);
+			path = RecurringAlarmsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABBDBA220006AAD00DCD071 /* RecurringAlarms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABBDBCB20006AAD00DCD071 /* Build configuration list for PBXNativeTarget "RecurringAlarms" */;
+			buildPhases = (
+				6ABBDB9F20006AAD00DCD071 /* Sources */,
+				6ABBDBA020006AAD00DCD071 /* Frameworks */,
+				6ABBDBA120006AAD00DCD071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecurringAlarms;
+			productName = RecurringAlarms;
+			productReference = 6ABBDBA320006AAD00DCD071 /* RecurringAlarms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABBDBB620006AAD00DCD071 /* RecurringAlarmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABBDBCE20006AAD00DCD071 /* Build configuration list for PBXNativeTarget "RecurringAlarmsTests" */;
+			buildPhases = (
+				6ABBDBB320006AAD00DCD071 /* Sources */,
+				6ABBDBB420006AAD00DCD071 /* Frameworks */,
+				6ABBDBB520006AAD00DCD071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABBDBB920006AAD00DCD071 /* PBXTargetDependency */,
+			);
+			name = RecurringAlarmsTests;
+			productName = RecurringAlarmsTests;
+			productReference = 6ABBDBB720006AAD00DCD071 /* RecurringAlarmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ABBDBC120006AAD00DCD071 /* RecurringAlarmsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABBDBD120006AAD00DCD071 /* Build configuration list for PBXNativeTarget "RecurringAlarmsUITests" */;
+			buildPhases = (
+				6ABBDBBE20006AAD00DCD071 /* Sources */,
+				6ABBDBBF20006AAD00DCD071 /* Frameworks */,
+				6ABBDBC020006AAD00DCD071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABBDBC420006AAD00DCD071 /* PBXTargetDependency */,
+			);
+			name = RecurringAlarmsUITests;
+			productName = RecurringAlarmsUITests;
+			productReference = 6ABBDBC220006AAD00DCD071 /* RecurringAlarmsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABBDB9B20006AAD00DCD071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ai-Lyn Tang";
+				TargetAttributes = {
+					6ABBDBA220006AAD00DCD071 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					6ABBDBB620006AAD00DCD071 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ABBDBA220006AAD00DCD071;
+					};
+					6ABBDBC120006AAD00DCD071 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ABBDBA220006AAD00DCD071;
+					};
+				};
+			};
+			buildConfigurationList = 6ABBDB9E20006AAD00DCD071 /* Build configuration list for PBXProject "RecurringAlarms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABBDB9A20006AAD00DCD071;
+			productRefGroup = 6ABBDBA420006AAD00DCD071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABBDBA220006AAD00DCD071 /* RecurringAlarms */,
+				6ABBDBB620006AAD00DCD071 /* RecurringAlarmsTests */,
+				6ABBDBC120006AAD00DCD071 /* RecurringAlarmsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABBDBA120006AAD00DCD071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABBDBB120006AAD00DCD071 /* LaunchScreen.storyboard in Resources */,
+				6ABBDBAE20006AAD00DCD071 /* Assets.xcassets in Resources */,
+				6ABBDBAC20006AAD00DCD071 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABBDBB520006AAD00DCD071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABBDBC020006AAD00DCD071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABBDB9F20006AAD00DCD071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABBDBA920006AAD00DCD071 /* ViewController.swift in Sources */,
+				6ABBDBA720006AAD00DCD071 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABBDBB320006AAD00DCD071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABBDBBC20006AAD00DCD071 /* RecurringAlarmsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABBDBBE20006AAD00DCD071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABBDBC720006AAD00DCD071 /* RecurringAlarmsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABBDBB920006AAD00DCD071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABBDBA220006AAD00DCD071 /* RecurringAlarms */;
+			targetProxy = 6ABBDBB820006AAD00DCD071 /* PBXContainerItemProxy */;
+		};
+		6ABBDBC420006AAD00DCD071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABBDBA220006AAD00DCD071 /* RecurringAlarms */;
+			targetProxy = 6ABBDBC320006AAD00DCD071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ABBDBAA20006AAD00DCD071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABBDBAB20006AAD00DCD071 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ABBDBAF20006AAD00DCD071 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABBDBB020006AAD00DCD071 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABBDBC920006AAD00DCD071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ABBDBCA20006AAD00DCD071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABBDBCC20006AAD00DCD071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecurringAlarms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderlyn.RecurringAlarms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6ABBDBCD20006AAD00DCD071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecurringAlarms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderlyn.RecurringAlarms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6ABBDBCF20006AAD00DCD071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecurringAlarmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderlyn.RecurringAlarmsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecurringAlarms.app/RecurringAlarms";
+			};
+			name = Debug;
+		};
+		6ABBDBD020006AAD00DCD071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecurringAlarmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderlyn.RecurringAlarmsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecurringAlarms.app/RecurringAlarms";
+			};
+			name = Release;
+		};
+		6ABBDBD220006AAD00DCD071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RecurringAlarmsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderlyn.RecurringAlarmsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RecurringAlarms;
+			};
+			name = Debug;
+		};
+		6ABBDBD320006AAD00DCD071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RecurringAlarmsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderlyn.RecurringAlarmsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RecurringAlarms;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABBDB9E20006AAD00DCD071 /* Build configuration list for PBXProject "RecurringAlarms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABBDBC920006AAD00DCD071 /* Debug */,
+				6ABBDBCA20006AAD00DCD071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABBDBCB20006AAD00DCD071 /* Build configuration list for PBXNativeTarget "RecurringAlarms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABBDBCC20006AAD00DCD071 /* Debug */,
+				6ABBDBCD20006AAD00DCD071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ABBDBCE20006AAD00DCD071 /* Build configuration list for PBXNativeTarget "RecurringAlarmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABBDBCF20006AAD00DCD071 /* Debug */,
+				6ABBDBD020006AAD00DCD071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ABBDBD120006AAD00DCD071 /* Build configuration list for PBXNativeTarget "RecurringAlarmsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABBDBD220006AAD00DCD071 /* Debug */,
+				6ABBDBD320006AAD00DCD071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABBDB9B20006AAD00DCD071 /* Project object */;
+}
